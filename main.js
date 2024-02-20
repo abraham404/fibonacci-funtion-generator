@@ -12,4 +12,4 @@ let gen = fibonacci(0, 1);
 
 setInterval(() => {
   console.log(gen.next().value);
-}, 2500);
+}, 1000);
